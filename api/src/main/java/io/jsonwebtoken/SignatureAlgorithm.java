@@ -51,7 +51,7 @@ public enum SignatureAlgorithm {
      * Sometimes life is cruel when user want to use weak key.
      * JWA algorithm name for {@code HMAC using SHA-256}
      */
-    HS256_WEAL_ALLOW("HS256", "HMAC using SHA-256", "HMAC", "HmacSHA256", true, 256, 0),
+    HS256_WEAK_ALLOW("HS256", "HMAC using SHA-256", "HMAC", "HmacSHA256", true, 256, 0),
 
     /**
      * JWA algorithm name for {@code HMAC using SHA-384}
