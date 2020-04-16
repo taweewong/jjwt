@@ -48,6 +48,12 @@ public enum SignatureAlgorithm {
     HS256("HS256", "HMAC using SHA-256", "HMAC", "HmacSHA256", true, 256, 256),
 
     /**
+     * Sometimes life is cruel when user want to use weak key.
+     * JWA algorithm name for {@code HMAC using SHA-256}
+     */
+    HS256_WEAL_ALLOW("HS256", "HMAC using SHA-256", "HMAC", "HmacSHA256", true, 256, 0),
+
+    /**
      * JWA algorithm name for {@code HMAC using SHA-384}
      */
     HS384("HS384", "HMAC using SHA-384", "HMAC", "HmacSHA384", true, 384, 384),
